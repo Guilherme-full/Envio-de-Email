@@ -19,7 +19,7 @@ faça login em seu e-mail, vá em gerenciar conta, na parte de segurança, ative
 após concluido, gere uma senha de APP, e quando estiver utilizando este programa, basta apenas inserir seu e-mail,
 e sua senha de APP para fazer login, para fazer o envio, informe novamente seu email, o destinatario e por fim a
 mensagem.''')
-
+print('-' * 120)
 
 login = input('Informe seu e-mail para login: ')
 senha = input('Informe sua senha de APP: ')
