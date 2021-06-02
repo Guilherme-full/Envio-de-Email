@@ -1,6 +1,8 @@
+import smtplib
+
+
 def enviar_email(email, senhaApp, email_Envio, destinatario, mensagem):
     try:
-        import smtplib
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
         server.login(email, senhaApp)
         server.sendmail(email_Envio, destinatario, mensagem)
