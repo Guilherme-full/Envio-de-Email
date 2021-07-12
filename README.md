@@ -1,8 +1,8 @@
 # Envio-de-Email (Guilherme Xavier Souza)
 
-## Download do Projeto
+## Clonar Repositório
 ```
-gh repo clone Guilherme-full/Envio-de-Email
+git clone https://github.com/Guilherme-full/Envio-de-Email.git
 ```
 
 |          | Linux | macOS | Windows |
